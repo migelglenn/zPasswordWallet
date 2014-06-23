@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Password Wallet</title>
+	<link rel="stylesheet" type="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/cupertino/jquery-ui.min.css"></link>
+	<link rel="stylesheet" type="stylesheet" href="../css/common.css"></link>
+</head>
+<body>
+	<fieldset>
+	    <legend>Search Tweets</legend>
+	        <input type="text" id="text" value="type text here.."></input>
+	        <button type="button" id="send">Send</button>        
+	    <div id="tweets"></div>
+	</fieldset>
+	<fieldset>
+	    <legend>Connect</legend>
+	    <div id="connect">
+	    <table>        
+	        <tr>
+	            <td><label for="site">Site</label></td>
+	            <td><input type="text" id="site" value="site"></input></td>
+	        </tr>
+	        <tr>
+	            <td><label for="username">Username</label></td>
+	            <td><input type="text" id="username" value="user"></input></td>
+	        </tr>
+	        <tr>
+	            <td><label for="password">Password</label></td>
+	            <td>
+	                <input type="password" id="password"></input>
+	            </td>
+	        </tr>
+	        <tr id="trHint">
+	            <td><label for="hint">Hint</label></td>
+	            <td><input type="text" id="hint" value="hint"></input></td>
+	        </tr>
+	        <tr id="trSeq">
+	            <td><label for="seq">Sequence</label></td>
+	            <td><input type="text" id="seq" value="sequence"></input></td>
+	        </tr>
+	        <tr id="trId">
+	            <td><label for="seq">_id</label></td>
+	            <td><input type="text" id="_id" value="_id"></input></td>
+	        </tr>
+	        <tr>
+	            <td></td>
+	            <td>
+	                <input type="checkbox" id="check"></input>
+	                <label for="check">Show password</label>
+	            </td>
+	        </tr>        
+	        <tr id="navs">
+	            <td></td>
+	            <td>
+	                <div id="navs">
+	                <button type="button" id="prev">Prev</button>
+	                <button type="button" id="next">Next</button>                
+	                </div>
+	            </td>
+	        </tr>        
+	    </table>        
+	    </div>
+	</fieldset>
+	<fieldset>
+	    <legend>Controls</legend>
+	    <div id="controls">
+	        <button type="submit" id="search">Search</button>
+	        <button type="submit" id="edit">Edit</button>
+	        <button type="submit" id="add">Add</button>
+	        <button type="submit" id="cancel">Cancel</button>
+	        <button type="submit" id="submit">Submit</button>
+	    </div>
+	</fieldset>
+	<iframe
+	  width="200"
+	  height="200"
+	  frameborder="0" style="border:0"
+	  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyATor0RyhL5QaviFZijoHSf-Vgv_HHaQJU&q=siena+villas,bacoor+PH">
+	</iframe>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="../js/functions.js"></script>
+</body>
+</html>

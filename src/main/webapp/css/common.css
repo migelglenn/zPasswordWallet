@@ -1,0 +1,18 @@
+fieldset{
+    border-radius: 10px;
+}
+legend{
+    font-family: calibri;
+    padding: 3px;
+    font-weight: bold;
+}
+input[type=text],input[type=password]{
+    font-family: calibri;
+    background: white;
+    text-align: left;
+    font-weight: normal;    
+}
+label{
+    font-family: calibri;
+    padding: 3px;
+}
